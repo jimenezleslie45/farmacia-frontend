@@ -1,0 +1,63 @@
+.contenedor {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .contenido {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Formulario de agregar productos */
+  .formulario {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 8px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button.pagar {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  /* Tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #5e9cda;
+    color: white;
+  }
+  
+  button.eliminar {
+    background-color: red;
+    color: white;
+  }
+  

@@ -1,0 +1,53 @@
+.barra-lateral {
+  width: 300px; /* Aumenta el ancho */
+  background-color: rgba(26, 8, 190, 0.89); /* Acua translúcido */
+  color: white;
+  height: 100vh; /* Altura completa de la ventana */
+  padding: 20px;
+  position: fixed;
+  backdrop-filter: blur(8px); /* Efecto difuminado */
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.5);
+  border-right: 3px solid black; /* Borde negro */
+  overflow-y: auto; /* Para habilitar desplazamiento si el contenido excede la altura */
+}
+
+.barra-lateral h2 {
+  font-size: 24px; /* Tamaño de fuente mayor */
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.barra-lateral ul {
+  list-style: none;
+  padding: 0;
+}
+
+.barra-lateral ul li {
+  margin: 15px 0;
+}
+
+.barra-lateral ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.2s;
+  border: 2px solid black; /* Borde negro en los elementos */
+}
+
+.barra-lateral ul li a svg {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.barra-lateral ul li a:hover {
+  background-color: rgba(0, 120, 180, 0.9); /* Color agua más oscuro al pasar el mouse */
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border: 2px solid white; /* Borde blanco en hover */
+}

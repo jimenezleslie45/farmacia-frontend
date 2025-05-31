@@ -1,0 +1,122 @@
+.contenido {
+  background: #f6f9fc;
+  padding: 2rem;
+  margin-left: 250px; /* Alinea el contenido a la derecha del menú */
+  transition: margin-left 0.3s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 180px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+button {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #00f2fe, #4facfe);
+  transform: translateY(-1px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  padding: 0.7rem;
+  font-size: 15px;
+}
+
+td {
+  padding: 0.7rem;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.eliminar {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.eliminar:hover {
+  background-color: #c0392b;
+}
+
+.botones-inventario {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.total-vendido {
+  margin-top: 1rem;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2c3e50;
+  background-color: #ecf9f1;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+}
+
+.chart-wrapper {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

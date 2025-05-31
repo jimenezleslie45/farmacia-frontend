@@ -1,0 +1,58 @@
+.contenedor {
+    display: flex;
+  }
+  
+  .contenido {
+    flex: 1;
+    padding: 30px;
+    background-color: #f4f8ff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .productos-disponibles ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .productos-disponibles li {
+    margin-bottom: 8px;
+  }
+  
+  .productos-disponibles button {
+    margin-left: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  
+  .carrito-venta {
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .carrito-venta table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  .carrito-venta th,
+  .carrito-venta td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .carrito-venta button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
